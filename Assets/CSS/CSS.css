@@ -1,0 +1,357 @@
+/*
+color scheme:
+accent Dark Blue: #162154
+accent light blue: #ECF7FE
+Light blue: #AADBFD
+text/accent(black): #000000
+text/main bg(white): #feffff
+*/
+
+
+/* Main Color Sceme Layout*/
+
+.secondaryText {
+  color: #000000;
+}
+
+.mainText {
+  color: #000000;
+}
+
+.accentText {
+  color: #162154;
+}
+
+.mainBackground {
+  background-color: #ECF7FE;
+}
+
+.secondaryBackground {
+  background-color: #162154;
+}
+
+.accentBackground {
+  background-color: #AADBFD;
+}
+
+.mainFont {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: 'Playfair', serif; */
+}
+
+.captionText {
+  /* color: #000000; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: small;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.headings1 {
+  text-align: center;
+  color: #000000;
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: .5em;
+  font-weight: normal;
+}
+
+.headings2 {
+  text-align: left;
+  color: #000000;
+  font-size: 1.2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: .5em;
+  font-weight: normal;
+}
+
+.headings3 {
+  text-align: center;
+  color: #000000;
+  font-size: 1.2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: .5em;
+  font-weight: normal;
+}
+
+.headings4 {
+  color: #000000;
+  font-size: 1.4em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: .25em;
+  font-weight: normal;
+}
+
+.headings1A {
+  text-align: Left;
+  color: #000000;
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: .5em;
+  font-weight: normal;
+}
+
+.headings2A {
+  text-align: left;
+  color: #000000;
+  font-size: 1.5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: .5em;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.evenSplitTable {
+  width: 33.33%;
+  height: 33.33%;
+}
+
+.tableHeadings1 {
+  text-align: center;
+  color: #000000;
+  font-size: 1.7em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 100;
+  width: 30%;
+}
+
+.myTableBorder {
+  border: 1px solid #000000;
+}
+
+
+.myLink {
+  color: #000000;
+}
+
+.myLink:hover {
+  color: #000000;
+  text-decoration: underline #000000;
+}
+
+.myLink:visited {
+  color: #000000;
+}
+
+/*Top Nav Bar*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.sticky+div {
+  margin-top: 10rem;
+}
+
+/* Side Nav Bar */
+.myLinkSide {
+  color: #162154;
+}
+
+.myLinkSide:hover {
+  color: #162154;
+  text-decoration: underline #162154;
+}
+
+.myLinkSide:visited {
+  color: #162154;
+}
+
+.redLink {
+  color: #162154;
+}
+
+.myPortFolioLinks {
+  color: #162154;
+  text-decoration: none;
+}
+
+.myPortFolioLinks:hover {
+  color:#0068f2;
+  /* text-decoration: underline #0068f2; */
+}
+
+.myPortFolioLinks:focus {
+  outline: 1px solid #0068f2;
+}
+
+#sideNavBar {
+  padding-top: 2em;
+  padding-left: .5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* border: 2px solid #0068f2; */
+  /* background-color: #feffff; */
+  color: #0068f2;
+}
+
+.scrollToTop {
+  position: fixed;
+  margin-left: .5rem;
+  margin-bottom: .5rem;
+  left: 2rem;
+  bottom: 2rem;
+  border-radius: 10%;
+  border: none;
+  /* border: .05px solid #0068f2; */
+  width: 5.5em;
+  height: 5.5em;
+  align-content: center;
+  padding-top: .7rem;
+  background-color: rgba(237, 237, 241, 0.5);
+  cursor: pointer;
+}
+
+.scrollToTop:hover {
+  color: #feffff;
+  outline: 1px solid #000000;
+}
+
+.scrollToTop:focus {
+  color: #feffff;
+  outline: 1px solid #000000;
+}
+
+.scrollBtnTxt {
+  color: #000000;
+}
+
+.myDDMenu {
+  border: solid 1px #000000;
+  color: #000000;
+  background-color: #feffff;
+}
+
+.textCentered {
+  text-align: center;
+}
+
+.alignRight {
+  text-align: right;
+  padding-left: 2em;
+  padding-right: 1em;
+}
+
+.topAlign {
+  vertical-align: top;
+}
+
+.iconPadding {
+  padding-right: .4em;
+  padding-top: .4em;
+  padding-bottom: .4em;
+  color: #000000;
+}
+
+.favProjectsPadding {
+  padding-top: 1em;
+  padding-left: 1em;
+  vertical-align: top;
+}
+
+.headerPadding {
+  padding-top: 1em;
+  /* margin-bottom: 1em; */
+}
+
+.bottomPadding {
+  padding-bottom: 2em;
+}
+
+.topPadding {
+  padding-top: 2em;
+}
+
+.LRPadding {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#footerPadding {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.liNone {
+  list-style-type: none;
+}
+
+.projectSkillsList {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+#nameImage {
+  padding-top: .5em;
+  padding-bottom: .5em;
+  width: 50%;
+  /*auto*/
+  height: auto;
+  /*86.4px*/
+}
+
+#headShot {
+  object-fit: contain;
+  padding-top: 2em;
+  width: 100%;
+  /*auto*/
+  height: 100%;
+  /*500px*/
+}
+
+#constructionImg {
+  align-items: center;
+  object-fit: contain;
+  padding-top: .5em;
+  padding-bottom: 2em;
+  width: 90%;
+  /*auto*/
+  height: 90%;
+}
+
+.image {
+  object-fit: contain;
+  /* padding: .5em; */
+  width: 100%;
+  height: 100%;
+}
+
+.imageTwo {
+  object-fit: contain;
+  /* padding: .5em; */
+  width: 100%;
+  height: auto;
+}
+
+.video {
+  object-fit: contain;
+   padding: .5em; 
+  width: 100%;
+  height: 100%;
+}
+
+.video-wrapper{
+  aspect-ratio: 16/9;
+}
+
+.image2 {
+  object-fit: contain;
+  padding-left: 4em;
+  padding-right: 4em;
+  width: 100%;
+  height: 100%;
+}
+
+.image3 {
+  object-fit: contain;
+  padding-left: 2em;
+  padding-right: 2em;
+  width: 100%;
+  height: 100%;
+}
+
+
+.topBorder {
+  border-top: 1px solid #feffff;
+}
+
